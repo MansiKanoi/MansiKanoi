@@ -58,7 +58,7 @@ all-heading
 }
 .all-heading h1
 {
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 600;
     position: relative;
     text-align: center;
@@ -247,7 +247,7 @@ all-heading
 
 .abocon p
 {
-   font-size:24px;
+   font-size:30px;
    flex:1;
    margin-bottom: 100px;
 }
@@ -261,9 +261,9 @@ div.image
 }
 
 .container2
-{   weight:300px;
-    height:100%;
-    margin:0 auto;
+{   width:100%;
+    height:280px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
     grid-gap:10px;
@@ -272,7 +272,6 @@ div.image
 }
 .container2 .skill{
     position: relative;
-    background:#fff;
     background: whitesmoke;
 }
 /*.skillcon all-heading
@@ -296,7 +295,7 @@ div.image
  list-style:none;
  color:black;
  margin-bottom:20px;
- font-size: 20px;
+ font-size: 30px;
  text-align: center;
  overflow: hidden;
  border-radius:20px
@@ -325,6 +324,11 @@ div.image
     display:table;
     clear:both;
 }*/
+.procon div h1
+{
+  font-size: 40px;
+  text-decoration-line: underline;
+}
 .blog-imga
 {
     float:left;
@@ -343,13 +347,13 @@ div.image
 
 .rating-imga
 {
-    float:right;
-    margin-left: 20px;
+    float:left;
+    margin-left: 60px;
 }
 .rating-text
 {
-    float:right;
-    margin-left: 20px;
+    float:left;
+    margin-left:500px;
 }
 .ratings
 {
@@ -360,11 +364,13 @@ div.image
 {
     float:left;
     margin-left: 20px;
+    margin-top: 30px ;
 }
 .construct-text
 {
     float:left;
     margin-left: 20px;
+    margin-top:40px;
 }
 .constron
 {
@@ -442,7 +448,7 @@ transform: rotate(360deg);
 .btn:hover i
 {
  transform: scale(1.5);
- color:#f1f1f1;
+ color:black;
 }
 .btn::before
 {
