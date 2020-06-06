@@ -16,13 +16,19 @@ body
     height:100%;
     /*background:url(back2.jpg) no-repeat center fixed;*/
     background-size: cover;
-    background-color: black;
+    background-color:black;
 }
 a{
     text-decoration: none;
     color:rgb(21, 169, 228);
     font-size: 1.9rem;
     font-weight: 200;
+}
+a:hover
+{
+    background: linear-gradient(#e66465, #9198e5);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 p{
     font-size: 2rem;
@@ -60,6 +66,25 @@ all-heading
     background: linear-gradient(to left,rgb(188, 210, 235), rgb(61, 142, 235) 50%, rgb(188, 210, 235) 85%, rgb(61, 142, 235)75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: text 15s 2;
+}
+@keyframes text{
+    0%
+    {
+        color:black;
+        margin-top: 40px;
+    }
+    30%
+    {
+       letter-spacing:30px;
+       margin-top: 40px;
+    }
+    85%
+    {
+        
+       letter-spacing:8px;
+       margin-top: 40px;
+    }
 }
 /*
 .all-heading h1::before,
@@ -195,11 +220,29 @@ all-heading
 .aboutheading 
 {
     text-align: center;
-    text-transform: uppercase;
     line-height: 0;
     margin-bottom: 6rem;
     font-size: 50px;
     color:rgb(28, 148, 196);
+    animation: text 8s 2;
+}
+@keyframes text{
+    0%
+    {
+        color:black;
+        margin-top: 40px;
+    }
+    30%
+    {
+       letter-spacing:20px;
+       margin-top: 40px;
+    }
+    85%
+    {
+        
+       letter-spacing:8px;
+       margin-top: 40px;
+    }
 }
 
 .abocon p
@@ -343,7 +386,7 @@ form{
 }
 form label{
     font-size: 1.5rem;
-    color:rgb(23, 161, 216);
+    color:rgb(29, 175, 233);
 }
 
 input,select,textarea
@@ -351,8 +394,9 @@ input,select,textarea
     width:100%;
     padding:1rem;
     margin-bottom: 5px;
-    border:none;
-    outline-color:rgb(23, 161, 216);
+    outline-color: rgb(17, 150, 228);;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px;
 }
 input[type="submit"]
 {
