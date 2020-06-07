@@ -471,7 +471,7 @@ transform: rotate(360deg);
 }
 .btn:hover::before
 {
-    animation: aaa 2s 1;
+    animation: aaa 2s 2;
     top:-10%;
     left:-10%;
 }
