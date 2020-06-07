@@ -30,6 +30,6 @@ navogation bar was not moving to the section in the page i remove it by  adding 
 ### Scope of imporovement
 navigation bar I would have made it more responsive.i would have placed the projects page more nicely and will add links to my projects.will give a portal where in people will provide me email for reading my blogs and other feautres.
 ### What I have learned 
-I had not applied html and css before I could do that through this project. I learnt how to google things out I learned commiting in git. S
+I had not applied html and css before I could do that through this project. I learnt how to google things out I learned commiting in git. 
 
 
