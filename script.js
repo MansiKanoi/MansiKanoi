@@ -5,7 +5,11 @@ function openMenu() {
     document.getElementById("navbar-container").style.height="100%"   
 }
 $(document).ready(function (){
-    $(this).yoggleClass('open');
-    $('.navbar').yoggleClass('open');
-
+    // $(this).toggleClass('open');
+    //$('.navbar').toggleClass('open');
+    closeMenu()
 })
+function theFunction ()
+{
+
+}
